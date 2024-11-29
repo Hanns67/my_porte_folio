@@ -7,7 +7,6 @@ import { AccrocheSection } from './home/Home'
 import { MyPerson } from './home/Home'
 import { MyCompetence } from './home/Home'
 import { MyFooter } from './home/Footer'
-import  {motion, useScroll } from'framer-motion'
 export default function MyPorteFolio(){
   return(
     <>
