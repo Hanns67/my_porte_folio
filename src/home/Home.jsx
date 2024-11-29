@@ -148,7 +148,7 @@ export  function AccrocheSection() {
                       <div id='accroche_word3' ref={accroche_word3}>Reste ma passion.</div>
                       </div>
                 <div className='div_calling_action '>
-                       <a href="/src/assets/Mon_cv.pdf"> <button><img src={arrow_next_icon} alt="icon_next" className='calling_action'ref={callingAction}/></button></a>
+                       <a href="https://drive.google.com/file/d/1Bn9EU4vXOZyghO5sSGdMKdA6f19EFJIQ/view?usp=drive_link"> <button><img src={arrow_next_icon} alt="icon_next" className='calling_action'ref={callingAction}/></button></a>
                 </div>     
 
             </div>
@@ -187,7 +187,7 @@ export function MyPerson() {
            
         </div>
         <div className='section_button'>
-           <a href='src/assets/Mon_cv.pdf'><button style={{display:"flex",flexDirection:"row"}}><h2 style={{fontSize:"10"}}>En savoir plus </h2> <i><img src={icon_plus} alt="" style={{height:"30px",width:"30px"}} /></i></button></a>
+           <a href='https://drive.google.com/file/d/1Bn9EU4vXOZyghO5sSGdMKdA6f19EFJIQ/view?usp=drive_link'><button style={{display:"flex",flexDirection:"row"}}><h2 style={{fontSize:"10"}}>En savoir plus </h2> <i><img src={icon_plus} alt="" style={{height:"30px",width:"30px"}} /></i></button></a>
         </div>
     
         </> 
@@ -216,7 +216,7 @@ export function MyCompetence(){
            
         </div>
         <div className='section_button'>
-        <a href='src/assets/Mon_cv.pdf'><button style={{display:"flex",flexDirection:"row"}}><h2 style={{fontSize:"10"}}>En savoir plus </h2> <i><img src={icon_plus} alt="" style={{height:"30px",width:"30px"}} /></i></button></a>
+        <a href='https://drive.google.com/file/d/1Bn9EU4vXOZyghO5sSGdMKdA6f19EFJIQ/view?usp=drive_link'><button style={{display:"flex",flexDirection:"row"}}><h2 style={{fontSize:"10"}}>En savoir plus </h2> <i><img src={icon_plus} alt="" style={{height:"30px",width:"30px"}} /></i></button></a>
         </div>
     
     </>)
