@@ -198,7 +198,7 @@ export function MyCompetence(){
 
   return( 
     <>
-      <div className='div_title_section'>
+      <div className='div_title_section flex-wrap'>
                 <h1 className='title_section'>Qu’es-ce que je sais faire?</h1>
         </div>
         <div className='section_content'>

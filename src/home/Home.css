@@ -184,6 +184,13 @@ h1{
     animation-duration: 2s;
 
 }
+.item_list_competences:hover{
+    transform: scale(1.1);
+}
+.item_list_projects:hover{
+    transform: scale(1.3);
+
+}
 @keyframes animate_n_b {
     to{
 
