@@ -10,7 +10,7 @@ export function ItemP({ description, icon, image }) {
         <>
             <div className="item_list_projects">
                 <div><img src={image} alt="" style={{ height: '100px', width: '100px' }} /></div>
-                <div><span >{description}</span></div>
+                <div style={{width: '130px' }}><span >{description}</span></div>
                 <div className="icon_item_project"><img src={icon} alt="" style={{ height: '30px', width: '30px', marginLeft: '50px' }} /></div>
             </div>
         </>
@@ -55,7 +55,7 @@ export function ListP() {
             </TECarousel> */}
                 <ItemP description={"Application mobile de livraison(DBS)"} icon={icon_extend} image={img_dbs}></ItemP>
                 <ItemP description={"Application web de gestion de stock"} icon={icon_extend} image={img_gestion_stock}></ItemP>
-                <ItemP description={"Site web de l’organisation camfaas(camfaasweb)"} icon={icon_extend} image={img_camfaas}></ItemP>
+                {/* <ItemP description={"Site web de l’organisation camfaas(camfaasweb)"} icon={icon_extend} image={img_camfaas}></ItemP> */}
                 <ItemP description={"Ai assistant vocal"} icon={icon_extend} image={img_ai_assitant_vocal}></ItemP>
                 <ItemP description={"Mini application de messagerie "} icon={icon_extend} image={img_java_app_message}></ItemP>
             </div>

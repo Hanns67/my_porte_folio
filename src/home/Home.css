@@ -97,13 +97,14 @@ h1{
 .item_list_projects{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 80px;
     
 }
 .icon_item_project{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .item_my_network{
     margin-left: 20px;
