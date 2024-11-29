@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin-top: 100px;
+}
+.accroche_section{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  padding-top: 100px;
+  background-color: rgba(17, 163, 254, 0.89);
+}
+.my_person{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.my_competence{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+.my_projects{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+.footer{
+ margin-top: 20px;
+
+}
+a{
+  font-family: 'Titillium Web';
+
+}
+button{
+  font-family: 'Titillium Web';
+}
+p{
+  font-family: "Afacad", sans-serif;
+  /* font-weight: bold; */
+  font-style: normal;
+}
+span{
+  display: inline-block;
+}
+.footer:hover{
+  animation-name: animation_footer;
+  animation-duration: 3s;
+}
+@keyframes animation_footer {
+  to{
+
+  }
+  20%{
+      transform: translateX(100px);
+  }
+  30%{
+      transform: translateX(200px);;
+  }
+  40%{
+      transform: translateX(300px);;
+  }
+  50%{
+      transform: translateX(400px);
+  }
+  from{
+     
+  }
+
+  
+}
+

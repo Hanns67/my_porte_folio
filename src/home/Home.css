@@ -1,0 +1,294 @@
+.my_picture{
+    width: 250px;
+
+}
+.nav_bar{
+   display: flex;
+   margin-left: 300px;
+   margin-right: 300px;
+}
+.accroche_section_first{
+    width: 100%;
+    height: auto;
+    
+   
+}
+.my_description{
+    width: 600px;
+    max-height: 100%;
+    margin-left: 100px;
+    font-family: 'Titillium Web';
+    color: white;
+    font-weight: bolder;
+
+
+}
+.calling_action{
+    height: 30px;
+    width: 30px;
+   
+   
+
+}
+.div_calling_action{
+    margin-left: 100px;
+   
+}
+.summary_description{
+    font-size: xx-large;
+}
+
+h1{
+    font-size: xx-large;
+}
+.title_section{
+    font-family: 'Titillium Web';
+    color: rgba(17, 163, 254, 0.79);
+    font-weight: bolder;
+
+}
+.div_title_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section_content{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: nowrap;
+    
+}
+.section_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color:rgba(17, 163, 254, 0.3);
+    width: 140px;
+    border-radius: 14px;
+    margin-left: 300px;
+}
+.section_description{
+    width: 400px;
+    margin-left: 10px;
+    font-family: "Afacad", sans-serif;
+    /* font-weight: bold; */
+    font-style: normal;
+    
+
+}
+.list_competences{
+    display: flex;
+    flex-direction: row;
+}
+.item_list_competences{
+    display: flex;
+    flex-direction: column;
+}
+.list_projects{
+    display: flex;
+    flex-direction: row;
+    font-family: "Afacad", sans-serif;
+    /* font-weight: bold; */
+    font-style: normal;
+  
+}
+.item_list_projects{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+.icon_item_project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item_my_network{
+    margin-left: 20px;
+}
+.item_my_network:hover{
+    animation-name: animation_s_b;
+   animation-duration: 2s;
+
+}
+.my_network{
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+}
+.footer{
+    background-color:rgba(17, 163, 254, 0.69);
+    height: 200px;
+  
+    
+    
+}
+.key_sentence_footer{
+    font-family: 'Titillium Web';
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.word_mark_footer{
+    margin-left: 0px;
+    margin-right: 100px;
+    background-color: white;
+    margin-left: 10px;
+    width: 200px;
+    height: 80px;
+    margin-top: 15px;
+}
+.section_footer{
+    display: flex;
+    flex-direction: row;
+}
+.first_section_footer{
+    width: 100%;
+  
+}
+
+.section_button:hover{
+   animation-name: animation_s_b;
+   animation-duration: 2s;
+
+}
+.my_profile:hover{
+    animation-name: animation_my_p;
+    animation-duration: 2s;
+
+}
+.navigation_button:hover{
+    animation-name: animate_n_b;
+    animation-duration: 3s;
+}
+.section_img1:hover{
+    animation-name: animation_s_i2;
+    animation-duration: 2s;
+}
+.section_img2:hover{
+    animation-name: animation_s_i1;
+    animation-duration: 2s;
+}
+.section_description1:hover{
+    animation-name: animation_s_i1;
+    animation-duration: 2s;
+
+
+}
+.section_description2:hover{
+    animation-name: animation_s_i2;
+    animation-duration: 2s;
+
+}
+@keyframes animate_n_b {
+    to{
+
+    }
+    20%{
+        transform: scale(0.8);
+    }
+    40%{
+        transform: scale(0.6);
+    }
+    60%{
+        transform: scale(0.4);
+    }
+    80%{
+        transform: scale(0.2);
+    }
+    from{
+       
+    }
+
+    
+}
+@keyframes animation_s_b {
+    to{
+
+    }
+    20%{
+        transform: scale(0.9);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.1);
+    }
+    80%{
+        transform: scale(1.2);
+    }
+    from{
+       
+    }
+
+    
+}
+@keyframes animation_my_p {
+    to{
+
+    }
+    30%{
+        transform: scale(0.9);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(1.3);
+    }
+    80%{
+        transform: scale(1.5);
+    }
+    from{
+       
+    }
+    
+}
+@keyframes animation_s_i1 {
+    to{
+
+    }
+    20%{
+        transform: translateX(10px);
+    }
+    40%{
+        transform: translateX(20px);;
+    }
+    60%{
+        transform: translateX(30px);;
+    }
+    80%{
+        transform: translateX(40px);
+    }
+    from{
+       
+    }
+  
+    
+}
+@keyframes animation_s_i2 {
+    to{
+
+    }
+    20%{
+        transform: translateX(-10px);
+    }
+    40%{
+        transform: translateX(-20px);;
+    }
+    60%{
+        transform: translateX(-30px);;
+    }
+    80%{
+        transform: translateX(-40px);
+    }
+    from{
+       
+    }
+  
+    
+}
